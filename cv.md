@@ -9,7 +9,7 @@
 
 ### **About myself**
 
-I worked as an economist for a long time. But over the past few years, I realized that I was not developing in my profession and decided to study as a programmer. The profession of a front-end developer seemed quite interesting to me. For a while I studied on my own, but in order to achieve better results and systematize knowledge and requirements, it was still desirable to take a programming course. That's why I decided to try a course in.
+I worked as an economist for a ong time. But over the past few years, I realized that I was not developing in my profession and decided to study as a programmer. The profession of a front-end developer seemed quite interesting to me. For a while I studied on my own, but in order to achieve better results and systematize knowledge and requirements, it was still desirable to take a programming course. That's why I decided to try a course in.
 
 ### **Skils**
 
