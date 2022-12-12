@@ -33,10 +33,7 @@
               <a href="#education" class="menu-link">Education end courses</a>
             </li>
             <li class="menu-item">
-              <a href="#projects" class="menu-link">Projects</a>
-            </li>
-            <li class="menu-item">
-              <a href="#lang" class="menu-link">Languiages</a>
+              <a href="#lang" class="menu-link">English level</a>
             </li>
           </ul>
         </nav>
@@ -45,9 +42,16 @@
     <main class="main">
       <div class="container col">
         <section class="profile">
-          <img src="/DSCN8118.JPG" alt="profile-photo" class="img-photo" />
+          <div class="profile-photo">
+            <img
+              src="./assets/IMG_20191120_215014.jpg"
+              alt="profile-photo"
+              class="img-photo"
+            />
+          </div>
+
           <div class="profile-content">
-            <h1 class="name">Yulia Iva</h1>
+            <h1 class="name">Yulia Ivashchenko</h1>
             <div class="profession">Front-End developer</div>
           </div>
         </section>
@@ -64,7 +68,7 @@
             <li class="contact-item">
               Discord:
               <a href="https//discord.com" class="contact-link" target="_blank">
-                jjjuliettai</a
+                jjjuliettai#7090</a
               >
             </li>
             <li class="contact-item">
@@ -98,8 +102,10 @@
         </section>
         <section class="code col-two" id="code">
           <h2 class="code title">Code example</h2>
-          function countSheep(arr) { let count = arr.filter((item) => item ===
-          true); return count.length; }
+          <code
+            >function countSheep(arr) { let count = arr.filter((item) => item
+            === true); return count.length; }</code
+          >
         </section>
         <section class="education col-one" id="education">
           <h2 class="education-title title">Education end courses</h2>
@@ -127,7 +133,7 @@
           </ul>
         </section>
         <section class="english col-two" id="lang">
-          <h2 class="english-title title">Languages</h2>
+          <h2 class="english-title title">English level</h2>
           <p class="english-text">
             A2 (I learned English course 13 years ago and I started to repeat it
             now)
@@ -135,6 +141,24 @@
         </section>
       </div>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">2022</div>
+          <a href="https://github.com/Jjjulietta" target="_blank"
+            ><img src="./assets/github.png" alt="github-icon"
+          /></a>
+          <div class="footer-icon">
+            <a href="https://rs.school/js/" class="icon-link" target="_blank">
+              <img
+                src="./assets/rs_school_js.svg"
+                class="icon-img"
+                alt="footer-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
