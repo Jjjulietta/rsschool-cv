@@ -85,8 +85,7 @@ body {
   display: flex;
   align-items: center;
 }
-.menu-item:hover {
-}
+
 .menu-link {
   display: block;
   padding: 20px;
@@ -105,20 +104,26 @@ body {
 .profile {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
   margin-bottom: 40px;
   background-color: rgb(252, 247, 184);
   box-shadow: 10px 10px rgb(88, 77, 87);
 }
-.img-photo {
+.profile-photo {
   flex: 0 1 30%;
-  width: 30%;
-  object-fit: contain;
+  padding: 30px;
+
+  background-color: rgb(73, 61, 77);
+}
+.img-photo {
+  width: 50%;
 }
 .name {
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: rgb(91, 64, 136);
 }
 .profession {
@@ -132,14 +137,11 @@ body {
 .profile-content {
   display: flex;
   flex-direction: column;
-  flex: 0 1 50%;
-  margin-left: 40px;
+  flex: 0 1 70%;
+  padding: 30px;
 }
 /*---------------------CONTACTS------------------*/
-.contacts {
-}
-.contact-title {
-}
+
 .contact-list li {
   position: relative;
   padding-left: 20px;
@@ -154,11 +156,6 @@ body {
   border: 1px solid rgb(252, 250, 136);
   border-radius: 50%;
 }
-
-.contact-item {
-}
-.contact-item ::before {
-}
 .contact-link {
   font-size: 16px;
   font-weight: 400;
@@ -170,14 +167,7 @@ body {
 .contact-link:hover {
   text-decoration: underline;
 }
-/*------------------SUMMARY------------*/
-.summary {
-}
-.about-myself {
-}
 
-.text-summary {
-}
 /*--------------SKILS---------------------*/
 .skils {
   flex: 0 1 30%;
@@ -203,17 +193,9 @@ body {
 }
 
 /*--------------CODE-----------------------*/
-.code {
-}
-.title {
-}
+
 /*-----------------EDUCATION---------------*/
-.education {
-}
-.education-title {
-}
-.title {
-}
+
 .education-list li {
   position: relative;
   padding-left: 20px;
@@ -237,3 +219,20 @@ body {
   color: rgb(220, 172, 235);
 }
 /*-----------------------FOOTER----------------*/
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+}
+.footer-info {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(252, 247, 184);
+}
+.footer-icon {
+}
+.icon-img {
+  width: 40%;
+}
