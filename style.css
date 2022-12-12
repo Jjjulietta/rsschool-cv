@@ -1,4 +1,239 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
 body {
-  background-color: azure;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: rgb(91, 64, 136);
+  background-color: rgb(93, 89, 94);
   background-size: cover;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.col {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(156, 100, 163);
+  text-shadow: 2px 2px rgb(238, 226, 56);
+}
+.col-one {
+  flex: 0 1 30%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rgb(252, 247, 184);
+  background-color: rgb(73, 61, 77);
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 10px 10px rgb(88, 77, 87);
+}
+.col-two {
+  flex: 0 1 70%;
+
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(245, 238, 247);
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 10px 10px rgb(88, 77, 87);
+}
+/*--------------HEADER-------------*/
+.header {
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu {
+  height: 100%;
+
+  background-color: rgb(252, 247, 184);
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+.menu-item:hover {
+}
+.menu-link {
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(91, 64, 136);
+  transition: color 0.3s;
+}
+.menu-link:hover {
+  background-color: rgb(91, 64, 136);
+  color: rgb(245, 243, 163);
+}
+/*-----------------PROFILE-----------*/
+.profile {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 40px;
+  background-color: rgb(252, 247, 184);
+  box-shadow: 10px 10px rgb(88, 77, 87);
+}
+.img-photo {
+  flex: 0 1 30%;
+  width: 30%;
+  object-fit: contain;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: rgb(91, 64, 136);
+}
+.profession {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(164, 158, 175);
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  margin-left: 40px;
+}
+/*---------------------CONTACTS------------------*/
+.contacts {
+}
+.contact-title {
+}
+.contact-list li {
+  position: relative;
+  padding-left: 20px;
+}
+.contact-list li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(252, 250, 136);
+  border-radius: 50%;
+}
+
+.contact-item {
+}
+.contact-item ::before {
+}
+.contact-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1px;
+
+  color: rgb(164, 158, 175);
+}
+.contact-link:hover {
+  text-decoration: underline;
+}
+/*------------------SUMMARY------------*/
+.summary {
+}
+.about-myself {
+}
+
+.text-summary {
+}
+/*--------------SKILS---------------------*/
+.skils {
+  flex: 0 1 30%;
+
+  padding: 20px;
+}
+.skils-title {
+}
+.list-skils li {
+  position: relative;
+  padding-left: 20px;
+}
+.list-skils li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(252, 250, 136);
+
+  border-radius: 50%;
+}
+
+/*--------------CODE-----------------------*/
+.code {
+}
+.title {
+}
+/*-----------------EDUCATION---------------*/
+.education {
+}
+.education-title {
+}
+.title {
+}
+.education-list li {
+  position: relative;
+  padding-left: 20px;
+}
+.education-list li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(252, 250, 136);
+
+  border-radius: 50%;
+}
+.education-item a {
+  color: rgb(252, 247, 184);
+  transition: color 0.5s;
+}
+.link-education:hover {
+  color: rgb(220, 172, 235);
+}
+/*-----------------------FOOTER----------------*/
