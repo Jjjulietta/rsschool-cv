@@ -174,8 +174,7 @@ body {
 
   padding: 20px;
 }
-.skils-title {
-}
+
 .list-skils li {
   position: relative;
   padding-left: 20px;
@@ -218,6 +217,28 @@ body {
 .link-education:hover {
   color: rgb(220, 172, 235);
 }
+/*-----------------------PROJECTS----------*/
+.projects-title {
+}
+.projects-block{
+  display: flex;
+}
+.content-projects{
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.title {
+}
+.projects-text {
+}
+.projects-iframe{
+  padding-left: 20px;
+}
+.iframe-projects {
+  width: 200px;
+  height: 200px;
+}
 /*-----------------------FOOTER----------------*/
 
 .footer-content {
@@ -231,8 +252,7 @@ body {
   font-weight: 600;
   color: rgb(252, 247, 184);
 }
-.footer-icon {
-}
+
 .icon-img {
   width: 40%;
 }
